@@ -1,0 +1,12 @@
+name: melts_gui
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - streamlit
+  - matplotlib
+  - pip
+  - pip:
+      - pyqt5
